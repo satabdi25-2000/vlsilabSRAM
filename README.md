@@ -1,4 +1,4 @@
-#6T SRAM
+# 6T SRAM
 
 ## Table Of Contents
 - [SRAM Design](https://github.com/ReuelReuben/vsdSRAM#sram-design)
