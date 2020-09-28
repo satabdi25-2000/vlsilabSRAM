@@ -7,7 +7,7 @@
   - [BitCell Array](https://github.com/ReuelReuben/vsdSRAM#6t-memory-cell)
   - [Sense Amplifier](https://github.com/ReuelReuben/vsdSRAM#sense-amplifier)
   - [Write Driver](https://github.com/ReuelReuben/vsdSRAM#write-driver)
-  - [Precharge Circuit](https://github.com/ReuelReuben/vsdSRAM#tri-state-buffer)
+  - [Precharge Circuit](https://github.com/ReuelReuben/vsdSRAM#Precharge-Circuit)
 
 - [Circuit Diagram](https://github.com/ReuelReuben/vsdSRAM#installing-and-simulating-on-ngspice)
 - [Simulation on NgSpice](https://github.com/ReuelReuben/vsdSRAM/blob/master/Readme.md#future-works)
