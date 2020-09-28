@@ -1,21 +1,21 @@
 # 6T SRAM
 
 ## Table Of Contents
-- [SRAM Design](https://github.com/ReuelReuben/vsdSRAM#sram-design)
-- [Block Diagram Of SRAM](https://github.com/ReuelReuben/vsdSRAM#basic-architectural-block-diagram)
-- [SRAM Blocks](https://github.com/ReuelReuben/vsdSRAM#pre-layout)
-  - [BitCell Array](https://github.com/ReuelReuben/vsdSRAM#6t-memory-cell)
-  - [Sense Amplifier](https://github.com/ReuelReuben/vsdSRAM#sense-amplifier)
-  - [Write Driver](https://github.com/ReuelReuben/vsdSRAM#write-driver)
-  - [Precharge Circuit](https://github.com/ReuelReuben/vsdSRAM#Precharge-Circuit)
+- [SRAM Design](https://github.com/satabdi25-2000/vlsilabSRAM#sram-design)
+- [Block Diagram Of SRAM](https://github.com/satabdi25-2000/vlsilabSRAM#block-diagram-of-sram)
+- [SRAM Blocks](https://github.com/satabdi25-2000/vlsilabSRAM#sram-blocks)
+  - [BitCell Array](https://github.com/satabdi25-2000/vlsilabSRAM#bitcell-array)
+  - [Sense Amplifier](https://github.com/satabdi25-2000/vlsilabSRAM#sense-amplifier)
+  - [Write Driver](https://github.com/satabdi25-2000/vlsilabSRAM#write-driver)
+  - [Precharge Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#precharge-circuit)
 
-- [Circuit Diagram](https://github.com/ReuelReuben/vsdSRAM#installing-and-simulating-on-ngspice)
-- [Simulation on NgSpice](https://github.com/ReuelReuben/vsdSRAM/blob/master/Readme.md#future-works)
-  - [6T SRAM Cell](https://github.com/ReuelReuben/vsdSRAM#6t-memory-cell)
-  - [Bit Cell Array](https://github.com/ReuelReuben/vsdSRAM#6t-memory-cell)
-  - [Sense Amplifier](https://github.com/ReuelReuben/vsdSRAM#sense-amplifier)
-  - [Write Driver](https://github.com/ReuelReuben/vsdSRAM#write-driver)
-  - [Precharge Circuit](https://github.com/ReuelReuben/vsdSRAM#tri-state-buffer)
+- [Circuit Diagram](https://github.com/satabdi25-2000/vlsilabSRAM#circuit-diagram)
+- [Simulation on NgSpice](https://github.com/satabdi25-2000/vlsilabSRAM#simulation-on-ngspice)
+  - [6T SRAM Cell](https://github.com/satabdi25-2000/vlsilabSRAM#6t-sram-cell)
+  - [Bit Cell Array](https://github.com/satabdi25-2000/vlsilabSRAM#bit-cell-array)
+  - [Sense Amplifier](https://github.com/satabdi25-2000/vlsilabSRAM#sense-amplifier)
+  - [Write Driver](https://github.com/satabdi25-2000/vlsilabSRAM#write-driver)
+  - [Precharge Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#prechrage-circuit)
 
 
 
