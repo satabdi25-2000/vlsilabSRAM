@@ -26,8 +26,9 @@ SRAM Specs - Memory Size of **1k-32bit** with Supply voltage of **5.0v** with
 *scn4m_subm* technology that is 0.5um. 
  
 
-# Block Diagram
-![](https://www.github.com/satabdi25-2000/vlsilabSRAM/Block Diagram/SRAM.png)
+## Block Diagram
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/SRAM.png)
+
 
 
 
