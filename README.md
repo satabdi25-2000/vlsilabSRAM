@@ -40,11 +40,10 @@ SRAM Specs - Memory Size of **1k-32bit** with Supply voltage of **5.0v** with
 ## BitCell Array
 
 It is a Static Memory cell to store data where two cross-coupled CMOS inverters are connected storing DATA(**Q**) and complement of data(**Qbar**).It permits the modification(write) of data bits,as well as their retrieval(read) when needed.
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/BitCellAray-precharge-pulldown.png)
 
 **Circuit Diagram**
 
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/CircuitDiagram/6TMemCell.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/BitCellAray-precharge-pulldown.png)
 
 **Simulation**
 
@@ -52,7 +51,7 @@ It is a Static Memory cell to store data where two cross-coupled CMOS inverters 
 
 The DC Simulation was done to do the write and read sanity check for the SRAM cell,observing the trip point and checking the iterative threshold voltages taken for the simulation.Tested it in Temperature ranges-**-40-125** and Corners-**ss,nom,ff**.
 
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/6TMemCell/6TCellPrelayout.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/DC-simulation.png)
 
 **SNM-Signal to Noise Margin**
 
