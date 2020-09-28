@@ -40,7 +40,7 @@ SRAM Specs - Memory Size of **1k-32bit** with Supply voltage of **5.0v** with
 ## BitCell Array
 
 It is a Static Memory cell to store data where two cross-coupled CMOS inverters are connected storing DATA(**Q**) and complement of data(**Qbar**).It permits the modification(write) of data bits,as well as their retrieval(read) when needed.
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Circuit-Diagram/BitCell-Array.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Circuit-Diagram/BitCellAray-precharge-pulldown.png)
 
 **Circuit Diagram**
 
