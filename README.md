@@ -66,72 +66,12 @@ It can be extracted by calculating the largest possible square in the two voltag
 
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
 
-**Simulation**
-
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/SenseAmpCell/SenseAmpPreLayout1.png)
-
 
 ## Write Driver
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/BlockDiagram/WriteDriver.png)
 
-**Circuit Diagram**
-
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/CircuitDiagram/WriteDriver.png)
-
-**Simulation**
-
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/WriteDriverCell/WriteDrivePreLayout.png)
-
 
 ## Precharge Circuit
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/BlockDiagram/PreCharge.png)
-
-**Circuit Diagram**
-
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/CircuitDiagram/PreCharge.png)
-
-**Simulation**
-
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/PreChargeCell/PrechargePreLayout.png)
-
-
-## Write Driver
-
-**Layout**
-
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Layouts/WriteDriver.png)
-
-**Simulation**
-
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/WriteDriverCell/WriteDrivePostLayout.png)
-
-**For Post Layout Simulation please** [click here](https://github.com/ReuelReuben/vsdSRAM#write-driver-3)
-
-## Tri-State Buffer
-
-**Layout**
-
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Layouts/TriGateBuffer.png)
-
-**Simulation-1**
-
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/TrigateCell/TrigateBufPostLayout1.png)
-
-**For Post Layout Simulation please** [click here](https://github.com/ReuelReuben/vsdSRAM#tri-state-buffer-3)
-
-**Simulation-2**
-
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/TrigateCell/TrigateBufPostLayout2.png)
-
-## Pre-Charge Circuit
-
-**Layout**
-
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/Layouts/PreChargeCell.png)
-
-**Simulation**
-
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PostLayoutWaveforms/PreChargeCell/PrechargePostLayout.png)
-
