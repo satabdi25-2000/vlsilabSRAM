@@ -51,11 +51,10 @@ It is a Static Memory cell to store data where two cross-coupled CMOS inverters 
 
 The DC Simulation was done to do the write and read sanity check for the SRAM cell,observing the trip point and checking the iterative threshold voltages taken for the simulation.Tested it in Temperature ranges-**-40-125** and Corners-**ss,nom,ff**.
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/DC-simulation.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/DCsimulation.png)
 
 **SNM-Signal to Noise Margin**
 
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/6TMemCell/Screenshot%20from%202020-08-02%2018-01-50.png)
 
 The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63** 
 
@@ -63,11 +62,9 @@ It can be extracted by calculating the largest possible square in the two voltag
 
 ## Sense Amplifier
 
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/BlockDiagram/SenseAmp.png)
-
 **Circuit Diagram**
 
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
 
 **Simulation**
 
