@@ -36,16 +36,16 @@ SRAM Specs - Memory Size of **1k-32bit** with Supply voltage of **5.0v** with
 
 # SRAM Blocks
 
-## 6T Memory cell
+## BitCell Array
 
 It is a Static Memory cell to store data where two cross-coupled CMOS inverters are connected storing DATA(**Q**) and complement of data(**Qbar**).It permits the modification(write) of data bits,as well as their retrieval(read) when needed.
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/BlockDiagram/6TMem.png)
 
-### Circuit Diagram
+**Circuit Diagram**
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/CircuitDiagram/6TMemCell.png)
 
-### Simulation
+**Simulation**
 
 **DC Simulation**
 
@@ -87,7 +87,7 @@ It can be extracted by calculating the largest possible square in the two voltag
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/PreLayoutWaveforms/WriteDriverCell/WriteDrivePreLayout.png)
 
 
-## Pre-Charge Circuit
+## Precharge Circuit
 
 ![](https://github.com/ReuelReuben/vsdSRAM/blob/master/BlockDiagram/PreCharge.png)
 
