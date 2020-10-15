@@ -33,24 +33,24 @@ This Project prioritizes on the design of SRAM using an OpenSource Compiler for 
  
  **Hold State**
 
- **WORDLINE=0** 
- Access transistors(M3,M4)-OFF
- Bistable operating points
- Previous data stored
+- **WORDLINE=0** 
+- Access transistors(M3,M4)-OFF
+- Bistable operating points
+- Previous data stored
  
  **Read Mode**
  
- **WORDLINE=1**
- Access transistors(M3,M4)-ON
- Bitlines Precharged
- Data(Q) to be read
+- **WORDLINE=1**
+- Access transistors(M3,M4)-ON
+- Bitlines Precharged
+- Data(Q) to be read
  
  **Write Mode**
  
- **WORDLINE=1**
- Access transistors(M3,M4)-ON
- Bitline/Bitlinebar=0(According to data-Done by write driver)
- Data(Q) to be flipped/written over previous value
+- **WORDLINE=1**
+- Access transistors(M3,M4)-ON
+- Bitline/Bitlinebar=0(According to data-Done by write driver)
+- Data(Q) to be flipped/written over previous value
  
  
  
