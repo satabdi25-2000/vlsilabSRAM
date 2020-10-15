@@ -23,10 +23,10 @@
 # SRAM Design
 This Project prioritizes on the design of SRAM using an OpenSource Compiler for SRAM known as **OpenRAM**.OpenRAM is a open source memory compiler which provides a platform to implement and test new memory designs. Design of the SRAM writing Spice netlist and simulating with **NgSpice**,also used a Schematic Editor-**Sue2** and **CppSim**.Layout of cells through OpenSource Layout Tool-**Magic**.
 
--**SRAM Design Specs** 
--**Memory Size**- *1k-32bit* 
--**Supply voltage**-*5.0v* 
--**Technology**- *scn4m_subm 0.5um*
+- **SRAM Design Specs** 
+- **Memory Size**- *1k-32bit* 
+- **Supply voltage**-*5.0v* 
+- **Technology**- *scn4m_subm 0.5um*
 
 
 # Modes Of SRAM Operation
@@ -52,7 +52,8 @@ This Project prioritizes on the design of SRAM using an OpenSource Compiler for 
 - Bitline/Bitlinebar=0(According to data-Done by write driver)
 - Data(Q) to be flipped/written over previous value
  
- 
+ **SNM**
+ ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/SNM6T.png)
  
  # Block Diagram
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/SRAM.png)
