@@ -53,7 +53,19 @@ This Project prioritizes on the design of SRAM using an OpenSource Compiler for 
 - Data(Q) to be flipped/written over previous value
  
  **SNM**
+
+The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63** 
+
+It can be extracted by calculating the largest possible square in the two voltage transfer characteristic curves (VTC) of the involved CMOS inverters and get us to know how much noise the SRAM Cell can tolerate.
+
+ 
  ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/SNM6T.png)
+ 
+ 
+ 
+ 
+ 
+ 
  
  # Block Diagram
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/SRAM.png)
@@ -82,14 +94,12 @@ The DC Simulation was done to do the write and read sanity check for the SRAM ce
 
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/DCsimulation.png)
 
-**SNM-Signal to Noise Margin**
-
-
-The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.63** 
-
-It can be extracted by calculating the largest possible square in the two voltage transfer characteristic curves (VTC) of the involved CMOS inverters and get us to know how much noise the SRAM Cell can tolerate.
 
 ## Sense Amplifier
+
+**Block Diagram**
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/SENSEAMPLIFIER.png)
+
 
 **Circuit Diagram**
 
