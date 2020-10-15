@@ -2,6 +2,7 @@
 
 ## Table Of Contents
 - [SRAM Design](https://github.com/satabdi25-2000/vlsilabSRAM#sram-design)
+- [Modes Of SRAM Operation](https://github.com/satabdi25-2000/vlsilabSRAM#modes-of-sram-operation)
 - [Block Diagram Of SRAM](https://github.com/satabdi25-2000/vlsilabSRAM#block-diagram-of-sram)
 - [SRAM Blocks](https://github.com/satabdi25-2000/vlsilabSRAM#sram-blocks)
   - [BitCell Array](https://github.com/satabdi25-2000/vlsilabSRAM#bitcell-array)
@@ -20,13 +21,40 @@
 
 
 # SRAM Design
-This Project prioritizes on the design of SRAM using an OpenSource Compiler for SRAM known as **OpenRAM**. Design of the SRAM writing Spice netlist and simulating with **NgSpice**,also used a Schematic Editor-**Sue2** and **CppSim**.Layout of cells through OpenSource Layout Tool-**Magic**.
+This Project prioritizes on the design of SRAM using an OpenSource Compiler for SRAM known as **OpenRAM**.OpenRAM is a open source memory compiler which provides a platform to implement and test new memory designs. Design of the SRAM writing Spice netlist and simulating with **NgSpice**,also used a Schematic Editor-**Sue2** and **CppSim**.Layout of cells through OpenSource Layout Tool-**Magic**.
 
-SRAM Specs - Memory Size of **1k-32bit** with Supply voltage of **5.0v** with 
-*scn4m_subm* technology that is 0.5um. 
+**SRAM Design Specs** 
+**Memory Size**- *1k-32bit* 
+**Supply voltage**-*5.0v* 
+**Technology**- *scn4m_subm 0.5um*
+
+
+# Modes Of SRAM Operation
  
+ **Hold State**
 
-## Block Diagram
+ **WORDLINE=0** 
+ Access transistors(M3,M4)-OFF
+ Bistable operating points
+ Previous data stored
+ 
+ **Read Mode**
+ 
+ **WORDLINE=1**
+ Access transistors(M3,M4)-ON
+ Bitlines Precharged
+ Data(Q) to be read
+ 
+ **Write Mode**
+ 
+ **WORDLINE=1**
+ Access transistors(M3,M4)-ON
+ Bitline/Bitlinebar=0(According to data-Done by write driver)
+ Data(Q) to be flipped/written over previous value
+ 
+ 
+ 
+ # Block Diagram
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/SRAM.png)
 
 
