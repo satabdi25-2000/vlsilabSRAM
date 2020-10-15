@@ -98,6 +98,7 @@ The DC Simulation was done to do the write and read sanity check for the SRAM ce
 ## Sense Amplifier
 
 **Block Diagram**
+
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/SENSEAMPLIFIER.png)
 
 
@@ -108,9 +109,22 @@ The DC Simulation was done to do the write and read sanity check for the SRAM ce
 
 ## Write Driver
 
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/BlockDiagram/WriteDriver.png)
+**Block Diagram**
 
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/WRITEDRIVER.png)
+
+
+**Circuit Diagram**
+
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
 
 ## Precharge Circuit
 
-![](https://github.com/ReuelReuben/vsdSRAM/blob/master/BlockDiagram/PreCharge.png)
+**Block Diagram**
+
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/PRECHARGECELL.png)
+
+
+**Circuit Diagram**
+
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
