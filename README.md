@@ -78,13 +78,13 @@ It can be extracted by calculating the largest possible square in the two voltag
 
 # SRAM Blocks
 
-## BitCell Array
+## 6T 1-Bit SRAM Cell
 
 It is a Static Memory cell to store data where two cross-coupled CMOS inverters are connected storing DATA(**Q**) and complement of data(**Qbar**).It permits the modification(write) of data bits,as well as their retrieval(read) when needed.
 
 **Circuit Diagram**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/BitCellAray-precharge-pulldown.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/6TSRAM.png)
 
 **Simulation**
 
@@ -93,6 +93,9 @@ It is a Static Memory cell to store data where two cross-coupled CMOS inverters 
 The DC Simulation was done to do the write and read sanity check for the SRAM cell,observing the trip point and checking the iterative threshold voltages taken for the simulation.Tested it in Temperature ranges-**-40-125** and Corners-**ss,nom,ff**.
 
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/DCsimulation.png)
+
+
+**
 
 
 ## Sense Amplifier
