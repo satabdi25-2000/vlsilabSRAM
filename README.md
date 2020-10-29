@@ -95,7 +95,10 @@ The DC Simulation was done to do the write and read sanity check for the SRAM ce
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/DCsimulation.png)
 
 
-**
+**PVT Variations**
+
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/PVT1.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/PVT2.png)
 
 
 ## Sense Amplifier
