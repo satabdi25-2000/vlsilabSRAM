@@ -101,10 +101,10 @@ The DC Simulation was done to do the write and read sanity check for the SRAM ce
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/PVT2.png)
 
 Deciding sizing through Vtn iterations,
-1.Dc simulation with 3 process corners nom,ff,ss 
-2.Dc simulation with 3 temperature ranges -40,27,105
-3.Transient simulation with 3 process corners nom,ff,ss
-4.Temperature ranges -40,27,105 
+- 1.Dc simulation with 3 process corners nom,ff,ss 
+- 2.Dc simulation with 3 temperature ranges -40,27,105
+- 3.Transient simulation with 3 process corners nom,ff,ss
+- 4.Temperature ranges -40,27,105 
 
 TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
