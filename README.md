@@ -5,15 +5,14 @@
 - [Modes Of SRAM Operation](https://github.com/satabdi25-2000/vlsilabSRAM#modes-of-sram-operation)
 - [Block Diagram Of SRAM](https://github.com/satabdi25-2000/vlsilabSRAM#block-diagram-of-sram)
 - [SRAM Blocks](https://github.com/satabdi25-2000/vlsilabSRAM#sram-blocks)
-  - [BitCell Array](https://github.com/satabdi25-2000/vlsilabSRAM#bitcell-array)
+  - [6T 1-Bit SRAM Cell](https://github.com/satabdi25-2000/vlsilabSRAM#6T-1-Bit-SRAM-Cell)
   - [Sense Amplifier](https://github.com/satabdi25-2000/vlsilabSRAM#sense-amplifier)
   - [Write Driver](https://github.com/satabdi25-2000/vlsilabSRAM#write-driver)
   - [Precharge Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#precharge-circuit)
 
-- [Circuit Diagram](https://github.com/satabdi25-2000/vlsilabSRAM#circuit-diagram)
-- [Simulation on NgSpice](https://github.com/satabdi25-2000/vlsilabSRAM#simulation-on-ngspice)
+- [PreLayout Simulations](https://github.com/satabdi25-2000/vlsilabSRAM#PreLayout-Simulations)
+- [PostLayout Simulations](https://github.com/satabdi25-2000/vlsilabSRAM#PostLayout-Simulations)
   - [6T SRAM Cell](https://github.com/satabdi25-2000/vlsilabSRAM#6t-sram-cell)
-  - [Bit Cell Array](https://github.com/satabdi25-2000/vlsilabSRAM#bit-cell-array)
   - [Sense Amplifier](https://github.com/satabdi25-2000/vlsilabSRAM#sense-amplifier)
   - [Write Driver](https://github.com/satabdi25-2000/vlsilabSRAM#write-driver)
   - [Precharge Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#prechrage-circuit)
@@ -101,10 +100,9 @@ The DC Simulation was done to do the write and read sanity check for the SRAM ce
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/PVT2.png)
 
 Deciding sizing through Vtn iterations,
-- 1.Dc simulation with 3 process corners nom,ff,ss 
-- 2.Dc simulation with 3 temperature ranges -40,27,105
-- 3.Transient simulation with 3 process corners nom,ff,ss
-- 4.Temperature ranges -40,27,105 
+- Dc simulation with 3 process corners nom,ff,ss 
+- Dc simulation with 3 temperature ranges -40,27,105
+- Transient simulation with 3 process corners nom,ff,ss with temperatures(-40-105)
 
 TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
@@ -143,3 +141,11 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 **Circuit Diagram**
 
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
+
+
+# PreLayout Simulations
+
+Before doing the Layout,the prelayout simulatons checked.The read/write timing estimation in Spice is done using a *fast-single-6T* parasitic model.
+*fast-single-6T* parasitic models considers and estimates the parasitics of the wordlines and bitlines in the bit cell array analysing the capacitance for only 1-Bit Cell.
+
+
