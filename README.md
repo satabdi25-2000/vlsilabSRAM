@@ -127,9 +127,6 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/WRITEDRIVER.png)
 
 
-**Circuit Diagram**
-
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
 
 ## Precharge Circuit
 
@@ -137,10 +134,6 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/PRECHARGECELL.png)
 
-
-**Circuit Diagram**
-
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
 
 
 # PreLayout Simulations
