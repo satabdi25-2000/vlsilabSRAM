@@ -11,17 +11,39 @@
   - [Precharge Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#precharge-circuit)
 
 - [PreLayout Simulations](https://github.com/satabdi25-2000/vlsilabSRAM#PreLayout-Simulations)
+   - [6T SRAM Cell](https://github.com/satabdi25-2000/vlsilabSRAM#6t-sram-cell)
+  - [Sense Amplifier](https://github.com/satabdi25-2000/vlsilabSRAM#sense-amplifier)
+  - [Write Driver](https://github.com/satabdi25-2000/vlsilabSRAM#write-driver)
+  - [Precharge Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#prechrage-circuit)
+  -[Positive edge triggered D-FlipFlop](https://github.com/satabdi25-2000/vlsilabSRAM#Positive-edge-triggered-D--FlipFlop)
+  -[TriState Buffer](https://github.com/satabdi25-2000/vlsilabSRAM#TriState-Buffer)
+
+
 - [PostLayout Simulations](https://github.com/satabdi25-2000/vlsilabSRAM#PostLayout-Simulations)
   - [6T SRAM Cell](https://github.com/satabdi25-2000/vlsilabSRAM#6t-sram-cell)
   - [Sense Amplifier](https://github.com/satabdi25-2000/vlsilabSRAM#sense-amplifier)
   - [Write Driver](https://github.com/satabdi25-2000/vlsilabSRAM#write-driver)
   - [Precharge Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#prechrage-circuit)
+  -[Positive edge triggered D-FlipFlop](https://github.com/satabdi25-2000/vlsilabSRAM#Positive-edge-triggered-D--FlipFlop)
+  -[TriState Buffer](https://github.com/satabdi25-2000/vlsilabSRAM#TriState-Buffer)
+
+-[Integrated Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#Integrated-Circuit)
+
+-[Future Works](https://github.com/satabdi25-2000/vlsilabSRAM#Future-Works)
+
+-[Acknowledgements](https://github.com/satabdi25-2000/vlsilabSRAM#Acknowledgements)
+
+-[Contact Information](https://github.com/satabdi25-2000/vlsilabSRAM#Contact-Information)
+
+
+
 
 
 
 # SRAM Design
-This Project prioritizes on the design of SRAM using an OpenSource Compiler for SRAM known as **OpenRAM**.OpenRAM is a open source memory compiler which provides a platform to implement and test new memory designs. Design of the SRAM writing Spice netlist and simulating with **NgSpice**,also used a Schematic Editor-**Sue2** and **CppSim**.Layout of cells through OpenSource Layout Tool-**Magic**.
+This Project prioritizes on the design of SRAM using an OpenSource Compiler for SRAM known as **OpenRAM**.OpenRAM is a open source memory compiler which provides a platform to implement and test new memory designs. Design of the Custom memory SRAM requires Spice netlists,Layout files of the Custom Cells,Design Rules-DRC and LVS and Technology files-SCMOS and generates a SRAM array.
 
+-**Tools Used**- NgSpice,Sue2,CppSim,Magic
 - **SRAM Design Specs** 
 - **Memory Size**- *1k-32bit* 
 - **Supply voltage**-*5.0v* 
