@@ -227,14 +227,14 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Simulation**
 
-               ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/PostLayoutSimulations/6TSRAM.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/PostLayoutSimulations/6TSRAM.png)
 
 
 ## Sense Amplifier
 
 **Layout**
 
-               ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/SenseAmplifier.jpg)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/SenseAmplifier.jpg)
 
 **Simulation**
 
@@ -245,7 +245,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-               ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/WRITEDRIVER.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/WRITEDRIVER.png)
 
 **Simulation**
 
@@ -256,7 +256,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-               ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/PrechargeCircuit.jpg)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/PrechargeCircuit.jpg)
 
 **Simulation**
 
@@ -266,7 +266,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-               ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/Positive_edge_triggered_D_FF.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/Positive_edge_triggered_D_FF.png)
 
 **Simulation**
 
@@ -276,7 +276,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-               ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/TriStateBuffer.jpg)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/TriStateBuffer.jpg)
 
 **Simulation**
 
@@ -289,7 +289,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-               ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/IntegratedCircuit.jpg)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/IntegratedCircuit.jpg)
 
 **Simulation**
 
