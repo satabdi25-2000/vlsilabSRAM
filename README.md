@@ -224,7 +224,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Simulation**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/PostLayoutSimulations/6TSRAM.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/PostLayoutSimulations/6TSRAM.png)
 
 
 ## Sense Amplifier
@@ -235,7 +235,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Simulation**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/PostLayoutSimulations/SenseAmplifier.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/PostLayoutSimulations/SenseAmplifier.png)
 
 
 ## Write Driver
@@ -246,7 +246,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Simulation**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/PostLayoutSimulations/WRITEDRIVER.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/PostLayoutSimulations/WRITEDRIVER.png)
 
 
 ## Precharge Circuit
@@ -257,7 +257,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Simulation**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/PostLayoutSimulations/PrechargeCircuit.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/PostLayoutSimulations/PrechargeCircuit.png)
 
 ## Positive edge triggered D-Flipflop
 
@@ -267,7 +267,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Simulation**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/PostLayoutSimulations/DFF.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/PostLayoutSimulations/DFF.png)
 
 ## TriState Buffer
 
