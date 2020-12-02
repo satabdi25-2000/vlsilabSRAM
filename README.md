@@ -208,9 +208,11 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 **Simulation**
 
 **Input Signals**
+
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/PreLayoutSimulations/InputSignals.png)
 
 **Output Signals**
+
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/PreLayoutSimulations/OutputSignals.png)
 
 
@@ -294,9 +296,11 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 **Simulation**
 
 **Input Signals**
+
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/PostLayoutSimulations/InputSignals.png)
 
-**Output Signals
+**Output Signals**
+
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/PostLayoutSimulations/OutputSignals.png)
 
 
