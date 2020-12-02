@@ -219,7 +219,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts/6TSRAMCELL.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/6TSRAMCELL.png)
 
 
 **Simulation**
@@ -231,7 +231,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts/SenseAmplifier.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/SenseAmplifier.png)
 
 **Simulation**
 
@@ -242,7 +242,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts/WRITEDRIVER.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/WRITEDRIVER.png)
 
 **Simulation**
 
@@ -253,7 +253,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts/PrechargeCircuit.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/PrechargeCircuit.png)
 
 **Simulation**
 
@@ -263,7 +263,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts/DFF.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/DFF.png)
 
 **Simulation**
 
@@ -273,7 +273,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts/TriStateBuffer.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/TriStateBuffer.png)
 
 **Simulation**
 
@@ -286,7 +286,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts/IntegratedCircuit.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/IntegratedCircuit.png)
 
 **Simulation**
 
@@ -298,9 +298,13 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 # Future Works
 
+- Implementing the Custom based cell designs in OpenRAM and integrating it to compile SRAM.
+- Improvement of READ stability of 6T SRAM.
+
 # Acknowledgements
 
-
+- Dr.Saroj Rout,Associate Professor,Silicon Institute Of Technology,Bhubaneswar
+- Mr.Santunu Sarangi,Assistant Professor,Silicon Institute Of Technology,Bhubaneswar
 
 
 
