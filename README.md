@@ -163,7 +163,7 @@ The TriState Buffer enables and puts the output data on data bus.
 
 **Circuit Diagram**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/Tristatebuffer.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/TriStateBuffer.png)
 
 
 
