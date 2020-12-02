@@ -247,14 +247,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-
-
-
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/WRITEDRIVER.png)
-
-
-
-
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/WRITEDRIVER.png|width=100)
 
 **Simulation**
 
