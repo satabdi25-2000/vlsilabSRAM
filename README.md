@@ -9,14 +9,18 @@
   - [Sense Amplifier](https://github.com/satabdi25-2000/vlsilabSRAM#sense-amplifier)
   - [Write Driver](https://github.com/satabdi25-2000/vlsilabSRAM#write-driver)
   - [Precharge Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#precharge-circuit)
+  - [Positive edge triggered D-FlipFlop](https://github.com/satabdi25-2000/vlsilabSRAM#Positive-edge-triggered-D--FlipFlop)
+  - [TriState Buffer](https://github.com/satabdi25-2000/vlsilabSRAM#TriState-Buffer)
+
+
 
 - [PreLayout Simulations](https://github.com/satabdi25-2000/vlsilabSRAM#PreLayout-Simulations)
-   - [6T SRAM Cell](https://github.com/satabdi25-2000/vlsilabSRAM#6t-sram-cell)
+  - [6T SRAM Cell](https://github.com/satabdi25-2000/vlsilabSRAM#6t-sram-cell)
   - [Sense Amplifier](https://github.com/satabdi25-2000/vlsilabSRAM#sense-amplifier)
   - [Write Driver](https://github.com/satabdi25-2000/vlsilabSRAM#write-driver)
   - [Precharge Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#prechrage-circuit)
-  -[Positive edge triggered D-FlipFlop](https://github.com/satabdi25-2000/vlsilabSRAM#Positive-edge-triggered-D--FlipFlop)
-  -[TriState Buffer](https://github.com/satabdi25-2000/vlsilabSRAM#TriState-Buffer)
+  - [Positive edge triggered D-FlipFlop](https://github.com/satabdi25-2000/vlsilabSRAM#Positive-edge-triggered-D--FlipFlop)
+  - [TriState Buffer](https://github.com/satabdi25-2000/vlsilabSRAM#TriState-Buffer)
 
 
 - [PostLayout Simulations](https://github.com/satabdi25-2000/vlsilabSRAM#PostLayout-Simulations)
@@ -24,16 +28,16 @@
   - [Sense Amplifier](https://github.com/satabdi25-2000/vlsilabSRAM#sense-amplifier)
   - [Write Driver](https://github.com/satabdi25-2000/vlsilabSRAM#write-driver)
   - [Precharge Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#prechrage-circuit)
-  -[Positive edge triggered D-FlipFlop](https://github.com/satabdi25-2000/vlsilabSRAM#Positive-edge-triggered-D--FlipFlop)
-  -[TriState Buffer](https://github.com/satabdi25-2000/vlsilabSRAM#TriState-Buffer)
+  - [Positive edge triggered D-FlipFlop](https://github.com/satabdi25-2000/vlsilabSRAM#Positive-edge-triggered-D--FlipFlop)
+  - [TriState Buffer](https://github.com/satabdi25-2000/vlsilabSRAM#TriState-Buffer)
 
--[Integrated Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#Integrated-Circuit)
+- [Integrated Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#Integrated-Circuit)
 
--[Future Works](https://github.com/satabdi25-2000/vlsilabSRAM#Future-Works)
+- [Future Works](https://github.com/satabdi25-2000/vlsilabSRAM#Future-Works)
 
--[Acknowledgements](https://github.com/satabdi25-2000/vlsilabSRAM#Acknowledgements)
+- [Acknowledgements](https://github.com/satabdi25-2000/vlsilabSRAM#Acknowledgements)
 
--[Contact Information](https://github.com/satabdi25-2000/vlsilabSRAM#Contact-Information)
+- [Contact Information](https://github.com/satabdi25-2000/vlsilabSRAM#Contact-Information)
 
 
 
@@ -86,7 +90,7 @@ This Project prioritizes on the design of SRAM using an OpenSource Compiler for 
 It is a Static Memory cell to store data where two cross-coupled CMOS inverters are connected storing DATA(**Q**) and complement of data(**Qbar**).It permits the modification(write) of data bits,as well as their retrieval(read) when needed.
 **Block Diagram**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/6TSRAM.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/6TSRAM.png)
 
 **Circuit Diagram**
 
@@ -118,7 +122,7 @@ The write driver is used to drive the input signal into the bit-cell during a wr
 
 **Circuit Diagram**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/WRITEDRIVER.png)
 
 
 
@@ -131,17 +135,17 @@ It precharges the bit-lines during the first phase of the clock cycle before rea
 
 **Circuit Diagram**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/PRECHARGECELL.png)
 
 ## D-Flipflop 
 It is necessary to synchronize the inputs and outputs with a clock signal. In OpenRAM,a master-slave D-flipflop is used for the synchronizing process.
 **Block Diagram**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/PRECHARGECELL.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/DFF.png)
 
 **Circuit Diagram**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/DFF.png)
 
 
 
@@ -149,11 +153,11 @@ It is necessary to synchronize the inputs and outputs with a clock signal. In Op
 The TriState Buffer enables and puts the output data on data bus.
 **Block Diagram**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/PRECHARGECELL.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/Tristatebuffer.png)
 
 **Circuit Diagram**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/SenseAmplifier.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/Tristatebuffer.png)
 
 
 
@@ -171,7 +175,7 @@ The **Signal to Noise Margin(SNM)** for SRAM Cell = **0.40**
 It can be extracted by calculating the largest possible square in the two voltage transfer characteristic curves (VTC) of the involved CMOS inverters and get us to know how much noise the SRAM Cell can tolerate.
 
  
- ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/SNM6T.png)
+ ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/SNMREAD6T.png)
  
  **DC Simulation**
 
@@ -205,7 +209,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts/6TSRAMCell.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts/6TSRAMCELL.png)
 
 
 **Simulation**
