@@ -88,9 +88,10 @@ This Project prioritizes on the design of SRAM using an OpenSource Compiler for 
 ## 6T 1-Bit SRAM Cell
 
 It is a Static Memory cell to store data where two cross-coupled CMOS inverters are connected storing DATA(**Q**) and complement of data(**Qbar**).It permits the modification(write) of data bits,as well as their retrieval(read) when needed.
+
 **Block Diagram**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/6TSRAM.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/6TSRAMCELL.png)
 
 **Circuit Diagram**
 
@@ -102,6 +103,7 @@ It is a Static Memory cell to store data where two cross-coupled CMOS inverters 
 ## Sense Amplifier
 
 The Sense Amplifier is a differential circuit amplifier to sense the voltage difference between BL and BLB while a read operation is performed.It recovers the signals from the bit-lines as they do not experience full voltage swing because of large load parasitic capacitance.
+
 **Block Diagram**
 
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/SENSEAMPLIFIER.png)
@@ -116,6 +118,7 @@ The Sense Amplifier is a differential circuit amplifier to sense the voltage dif
 ## Write Driver
 
 The write driver is used to drive the input signal into the bit-cell during a write operation and pulls down one of the bitlines according to the input data.
+
 **Block Diagram**
 
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/WRITEDRIVER.png)
@@ -129,16 +132,18 @@ The write driver is used to drive the input signal into the bit-cell during a wr
 
 ## Precharge Circuit
 It precharges the bit-lines during the first phase of the clock cycle before read and write operations.It has a third PMOS transistor which connects the two bit-lines together and equalizes the voltage between the two bit-lines.
+
 **Block Diagram**
 
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/PRECHARGECELL.png)
 
 **Circuit Diagram**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/PRECHARGECELL.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/CircuitDiagram/Precharge.png)
 
 ## D-Flipflop 
 It is necessary to synchronize the inputs and outputs with a clock signal. In OpenRAM,a master-slave D-flipflop is used for the synchronizing process.
+
 **Block Diagram**
 
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/DFF.png)
@@ -151,6 +156,7 @@ It is necessary to synchronize the inputs and outputs with a clock signal. In Op
 
 ## TriState Buffer
 The TriState Buffer enables and puts the output data on data bus.
+
 **Block Diagram**
 
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/BlockDiagram/Tristatebuffer.png)
@@ -196,6 +202,9 @@ Deciding sizing through Vtn iterations,
 
 TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/VthvsTemperature.png)
+
+
 **Simulation**
 
 ![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/PreLayoutWaveform.png)
@@ -232,7 +241,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts/WriteDriver.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts/WRITEDRIVER.png)
 
 **Simulation**
 
@@ -261,14 +270,13 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 ## TriState Buffer
 
-
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts/TriState-Buffer.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts/TriStateBuffer.png)
 
 **Simulation**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/TriState-Buffer.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Simulation/TriStateBuffer.png)
 
 
 
