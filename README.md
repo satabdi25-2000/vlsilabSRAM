@@ -219,7 +219,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/6TSRAMCELL.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/6TSRAMCELL.jpg)
 
 
 **Simulation**
@@ -231,7 +231,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/SenseAmplifier.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/SenseAmplifier.jpg)
 
 **Simulation**
 
@@ -253,7 +253,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/PrechargeCircuit.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/PrechargeCircuit.jpg)
 
 **Simulation**
 
@@ -263,7 +263,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/DFF.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/Positive_edge_triggered_D_FF.png)
 
 **Simulation**
 
@@ -273,7 +273,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/TriStateBuffer.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/TriStateBuffer.jpg)
 
 **Simulation**
 
@@ -286,7 +286,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 **Layout**
 
-![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/IntegratedCircuit.png)
+![](https://github.com/satabdi25-2000/vlsilabSRAM/blob/master/Layouts6T/IntegratedCircuit.jpg)
 
 **Simulation**
 
