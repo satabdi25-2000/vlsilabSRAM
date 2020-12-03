@@ -318,7 +318,7 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 
 # Contact Information
 
-- Satabdi Panda,4th year Undergraduate,EIE Department,Silicon Institute Of Technology,Bhubaneswar[satabdi.panda25@gmail.com]
+- Satabdi Panda,4th year Undergraduate,EIE Department,Silicon Institute Of Technology,Bhubaneswar satabdi.panda25@gmail.com
 
 
 
