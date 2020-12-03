@@ -15,21 +15,21 @@
 
 
 - [PreLayout Simulations](https://github.com/satabdi25-2000/vlsilabSRAM#PreLayout-Simulations)
-  - [6T SRAM Cell](https://github.com/satabdi25-2000/vlsilabSRAM#6t-sram-cell)
-  - [Sense Amplifier](https://github.com/satabdi25-2000/vlsilabSRAM#sense-amplifier)
-  - [Write Driver](https://github.com/satabdi25-2000/vlsilabSRAM#write-driver)
-  - [Precharge Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#prechrage-circuit)
-  - [Positive edge triggered D-FlipFlop](https://github.com/satabdi25-2000/vlsilabSRAM#Positive-edge-triggered-D--FlipFlop)
-  - [TriState Buffer](https://github.com/satabdi25-2000/vlsilabSRAM#TriState-Buffer)
+  - [6T SRAM Cell](https://github.com/satabdi25-2000/vlsilabSRAM#6t-sram-cell-1)
+  - [Sense Amplifier](https://github.com/satabdi25-2000/vlsilabSRAM#sense-amplifier-1)
+  - [Write Driver](https://github.com/satabdi25-2000/vlsilabSRAM#write-driver-1)
+  - [Precharge Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#prechrage-circuit-1)
+  - [Positive edge triggered D-FlipFlop](https://github.com/satabdi25-2000/vlsilabSRAM#Positive-edge-triggered-D--FlipFlop-1)
+  - [TriState Buffer](https://github.com/satabdi25-2000/vlsilabSRAM#TriState-Buffer-1)
 
 
 - [PostLayout Simulations](https://github.com/satabdi25-2000/vlsilabSRAM#PostLayout-Simulations)
-  - [6T SRAM Cell](https://github.com/satabdi25-2000/vlsilabSRAM#6t-sram-cell)
-  - [Sense Amplifier](https://github.com/satabdi25-2000/vlsilabSRAM#sense-amplifier)
-  - [Write Driver](https://github.com/satabdi25-2000/vlsilabSRAM#write-driver)
-  - [Precharge Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#prechrage-circuit)
-  - [Positive edge triggered D-FlipFlop](https://github.com/satabdi25-2000/vlsilabSRAM#Positive-edge-triggered-D--FlipFlop)
-  - [TriState Buffer](https://github.com/satabdi25-2000/vlsilabSRAM#TriState-Buffer)
+  - [6T SRAM Cell](https://github.com/satabdi25-2000/vlsilabSRAM#6t-sram-cell-2)
+  - [Sense Amplifier](https://github.com/satabdi25-2000/vlsilabSRAM#sense-amplifier-2)
+  - [Write Driver](https://github.com/satabdi25-2000/vlsilabSRAM#write-driver-2)
+  - [Precharge Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#prechrage-circuit-2)
+  - [Positive edge triggered D-FlipFlop](https://github.com/satabdi25-2000/vlsilabSRAM#Positive-edge-triggered-D--FlipFlop-2)
+  - [TriState Buffer](https://github.com/satabdi25-2000/vlsilabSRAM#TriState-Buffer-2)
 
 - [Integrated Circuit](https://github.com/satabdi25-2000/vlsilabSRAM#Integrated-Circuit)
 
@@ -316,7 +316,9 @@ TOTAL SIMULATION= DC(9WRITE+9READ) +TRAN(9WRITE+9READ)
 - Dr.Saroj Rout,Associate Professor,Silicon Institute Of Technology,Bhubaneswar
 - Mr.Santunu Sarangi,Assistant Professor,Silicon Institute Of Technology,Bhubaneswar
 
+# Contact Information
 
+- Satabdi Panda,4th year Undergraduate,EIE Department,Silicon Institute Of Technology,Bhubaneswar[satabdi.panda25@gmail.com]
 
 
 
