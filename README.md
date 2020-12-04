@@ -45,7 +45,7 @@
 
 
 # SRAM Design
-This Project prioritizes on the design of SRAM using an OpenSource Compiler for SRAM known as **OpenRAM**.OpenRAM is a open source memory compiler which provides a platform to implement and test new memory designs. Design of the Custom memory SRAM requires Spice netlists,Layout files of the Custom Cells,Design Rules-DRC and LVS and Technology files-SCMOS and generates a SRAM array.
+This Project prioritizes on the design of SRAM using an OpenSource Compiler for SRAM known as [**OpenRAM**](https://github.com/VLSIDA/OpenRAM) OpenRAM is a open source memory compiler which provides a platform to implement and test new memory designs. Design of the Custom memory SRAM requires Spice netlists,Layout files of the Custom Cells,Design Rules-DRC and LVS and Technology files-SCMOS and generates a SRAM array.
 
 - **SRAM Design Specs** 
 - **Memory Size**- *1k*32* 
